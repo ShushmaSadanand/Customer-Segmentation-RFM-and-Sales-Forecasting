@@ -1,0 +1,9 @@
+# Clear out Jupyter metadata and hide notebooks from language stats
+*.ipynb linguist-vendored
+*.ipynb linguist-documentation
+*.ipynb linguist-detectable=false
+*.ipynb -linguist-language
+
+# Explicitly prioritize Python files
+*.py linguist-detectable=true
+*.py linguist-language=Python
